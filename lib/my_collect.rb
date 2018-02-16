@@ -6,4 +6,5 @@ def my_collect(languages)
     lang << yield(languages[i])
     i += 1
 end
+lang
 end
