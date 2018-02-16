@@ -7,5 +7,4 @@ def my_collect(languages)
     binding.pry
     i += 1
 end
-lang.upcase
 end
