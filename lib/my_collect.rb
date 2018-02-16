@@ -5,6 +5,3 @@ def my_collect(languages)
     i += 1
 end
 end
-my_collect(languages) do |lang|
-lang.upcase
-end
