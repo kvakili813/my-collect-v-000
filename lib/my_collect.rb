@@ -4,7 +4,7 @@ def my_collect(languages)
     yield (languages[1])
     i += 1
 end
+end
 my_collect(languages) do |lang|
 lang.upcase
-end
 end
