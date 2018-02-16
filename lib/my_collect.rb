@@ -5,3 +5,6 @@ def my_collect(languages)
     i += 1
 end
 end
+my_collect(languages) do |language|
+  language.upper
+end
