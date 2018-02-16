@@ -25,6 +25,7 @@ describe "my_collect" do
 
   it 'does not modify the original collection' do
     my_collect(languages) do |language|
+      binding.pry
       language.upcase
     end
     expect(languages).to eq(['ruby', 'javascript', 'python', 'objective-c'])
