@@ -4,7 +4,6 @@ def my_collect(languages)
   lang = []
   while i < languages.length
     lang << yield(languages[i])
-    binding.pry
     i += 1
 end
 end
